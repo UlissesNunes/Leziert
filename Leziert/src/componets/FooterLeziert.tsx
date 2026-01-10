@@ -4,7 +4,7 @@ export const FooterLeziert: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-slate-950 via-slate-950 to-slate-950 text-white mt-16 border-t-3 border-blue-950">
+    <footer className="bg-gradient-to-r from-slate-950 via-slate-950 to-slate-950 text-white  border-t-3 border-blue-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
