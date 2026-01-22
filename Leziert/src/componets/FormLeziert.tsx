@@ -6,7 +6,7 @@ import {
   Target,
   Mail,
   ArrowRight,
-  Database,
+  
   Cpu,
 } from "lucide-react";
 
@@ -24,15 +24,15 @@ const FormLeziert = () => {
     <div className="min-h-screen bg-black text-white p-6 flex items-center justify-center font-sans">
       {/* Background Decorativo Estilo Tech */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-emerald-500/10 blur-[120px] rounded-full" />
+        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-blue-500/10 blur-[120px] rounded-full" />
         <div className="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] bg-blue-500/10 blur-[120px] rounded-full" />
       </div>
 
       <div className="relative w-full max-w-4xl">
         {/* Header do Formulário */}
         <div className="mb-10 text-center md:text-left">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-mono mb-4">
-            <Cpu size={14} /> SYSTEM_READY: DATA_COLLECTION_V1
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-200/10 border border-blue-300/20 text-blue-600 text-xs font-mono mb-4">
+            <Cpu size={14} /> ANÁLISE GRATUITA 
           </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tighter bg-gradient-to-b from-white to-zinc-500 bg-clip-text text-transparent">
             Análise de Ecossistema Leziert
@@ -52,7 +52,7 @@ const FormLeziert = () => {
                 <label className={labelStyle}>Nome da Empresa</label>
                 <Building2
                   className={`${iconStyle} ${
-                    focusedField === "company" ? "text-emerald-400" : ""
+                    focusedField === "company" ? "text-blue-400" : ""
                   }`}
                   size={18}
                 />
@@ -69,7 +69,7 @@ const FormLeziert = () => {
                 <label className={labelStyle}>Website Oficial</label>
                 <Globe
                   className={`${iconStyle} ${
-                    focusedField === "web" ? "text-emerald-400" : ""
+                    focusedField === "web" ? "text-blue-400" : ""
                   }`}
                   size={18}
                 />
@@ -86,7 +86,7 @@ const FormLeziert = () => {
                 <label className={labelStyle}>E-mail Corporativo</label>
                 <Mail
                   className={`${iconStyle} ${
-                    focusedField === "email" ? "text-emerald-400" : ""
+                    focusedField === "email" ? "text-blue-400" : ""
                   }`}
                   size={18}
                 />
@@ -106,7 +106,7 @@ const FormLeziert = () => {
                 <label className={labelStyle}>Tamanho do Time</label>
                 <Users
                   className={`${iconStyle} ${
-                    focusedField === "size" ? "text-emerald-400" : ""
+                    focusedField === "size" ? "text-blue-400" : ""
                   }`}
                   size={18}
                 />
@@ -134,7 +134,7 @@ const FormLeziert = () => {
                 <label className={labelStyle}>Foco Tecnológico Principal</label>
                 <Target
                   className={`${iconStyle} ${
-                    focusedField === "focus" ? "text-emerald-400" : ""
+                    focusedField === "focus" ? "text-blue-400" : ""
                   }`}
                   size={18}
                 />
@@ -147,33 +147,7 @@ const FormLeziert = () => {
                 />
               </div>
 
-              <div className="relative">
-                <label className={labelStyle}>Volume de Dados Mensal</label>
-                <Database
-                  className={`${iconStyle} ${
-                    focusedField === "data" ? "text-emerald-400" : ""
-                  }`}
-                  size={18}
-                />
-                <select
-                  className={`${inputStyle} appearance-none cursor-pointer`}
-                  onFocus={() => setFocusedField("data")}
-                  onBlur={() => setFocusedField(null)}
-                >
-                  <option value="" className="bg-zinc-900">
-                    Selecione a escala
-                  </option>
-                  <option value="tb" className="bg-zinc-900">
-                    Até 10 Terabytes
-                  </option>
-                  <option value="pb" className="bg-zinc-900">
-                    Escala de Petabytes
-                  </option>
-                  <option value="infinite" className="bg-zinc-900">
-                    Escala Enterprise (Zetabytes)
-                  </option>
-                </select>
-              </div>
+            
             </div>
 
             {/* Linha de Rodapé/Ação */}
@@ -196,11 +170,11 @@ const FormLeziert = () => {
         {/* Footer info */}
         <div className="mt-8 flex justify-center gap-12 text-zinc-600 font-mono text-[10px] tracking-widest uppercase">
           <div className="flex items-center gap-2">
-            <div className="w-1 h-1 bg-emerald-500 rounded-full" /> AES-256
+            <div className="w-1 h-1 bg-blue-500 rounded-full" /> AES-256
             Encrypted
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-1 h-1 bg-emerald-500 rounded-full" /> ISO 27001
+            <div className="w-1 h-1 bg-blue-500 rounded-full" /> ISO 27001
             Compliant
           </div>
         </div>
