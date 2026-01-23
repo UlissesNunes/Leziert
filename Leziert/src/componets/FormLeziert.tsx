@@ -147,6 +147,23 @@ const FormLeziert = () => {
                 />
               </div>
 
+                   <div className="relative">
+                <label className={labelStyle}>Foco Tecnológico Principal</label>
+                <Target
+                  className={`${iconStyle} ${
+                    focusedField === "focus" ? "text-blue-400" : ""
+                  }`}
+                  size={18}
+                />
+                <input
+                  type="text"
+                  placeholder="Ex: Cloud Computing, AI, Hardware"
+                  className={inputStyle}
+                  onFocus={() => setFocusedField("focus")}
+                  onBlur={() => setFocusedField(null)}
+                />
+              </div>
+
             
             </div>
 
