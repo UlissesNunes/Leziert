@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronRight , MessageCircleIcon } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +20,13 @@ const Navbar = () => {
     { name: 'Performance', href: '#performance' },
     { name: 'Sobre', href: '#about' },
   ];
+
+  const whatsappGo = () => {
+        const numero = "556697220111";
+        const mensagem = "Olá, quero saber mais sobre a Leziert!";
+        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+        window.open(url, "_blank");
+    }
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 bg-gradient-to-br from-blue-950 to-black ${
@@ -58,10 +65,10 @@ const Navbar = () => {
 
         {/* CTA Button - Estilo Tech */}
         <div className="hidden md:block">
-          <button className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-white rounded-full hover:bg-white group">
-            <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-full bg-gradient-to-br from-blue-950 to-cyan-300 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+          <button className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-blue-300 rounded-full hover:bg-white group" onClick={whatsappGo}>
+            <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-full bg-gradient-to-br from-blue-950 to-cyan-100 opacity-0 group-hover:opacity-100 transition-opacity"></span>
             <span className="relative text-blue-950 group-hover:text-white flex items-center gap-2 text-sm font-bold">
-              Experimentar <ChevronRight size={16} />
+             <MessageCircleIcon className='text-green-700'/> Experimentar <ChevronRight size={16} />
             </span>
           </button>
         </div>
@@ -92,8 +99,9 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <button className="mt-4 px-10 py-4 bg-gradient-to-br from-blue-950to-cyan-300 text-blue-50 rounded-full font-bold">
+          <button className="mt-4 px-10 py-4 bg-gradient-to-br from-blue-950to-cyan-300 text-blue-50 rounded-full font-bold" onClick={whatsappGo}>
             Começar Agora
+
           </button>
         </div>
       </div>
