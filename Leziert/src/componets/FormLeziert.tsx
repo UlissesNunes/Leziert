@@ -79,7 +79,7 @@ export const FormLeziert: React.FC = () => {
               <div className="relative">
                 <label className={labelStyle}>CPF ou CNPJ</label>
                 <Globe className={`${iconStyle} ${focusedField === "document" ? "text-blue-400" : ""}`} size={18} />
-                <input name="document" required type="text" placeholder="00.000.000/0001-00" className={inputStyle} onFocus={() => setFocusedField("document")} onBlur={() => setFocusedField(null)} />
+                <input name="document" required type="number" placeholder="00.000.000/0001-00" className={inputStyle} onFocus={() => setFocusedField("document")} onBlur={() => setFocusedField(null)} />
               </div>
 
               <div className="relative">
