@@ -122,7 +122,7 @@ export const FormLeziert: React.FC = () => {
               <button type="submit" className="group relative w-full md:w-auto px-10 py-4 bg-white text-black font-bold rounded-2xl overflow-hidden transition-all hover:scale-105 active:scale-95">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity" />
                 <span className="relative z-10 flex items-center justify-center gap-2 group-hover:text-white transition-colors">
-                  ENVIAR DADOS<ArrowRight size={18} />
+                  <img src="/public/whatsapp.webp" alt="" className="flex  mr-1 w-5 h-5 justify-center align-middle"/> ENVIAR DADOS<ArrowRight size={18} />
                 </span>
               </button>
             </div>

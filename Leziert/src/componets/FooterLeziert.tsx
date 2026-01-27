@@ -2,7 +2,12 @@
 
 export const FooterLeziert: React.FC = () => {
   const currentYear = new Date().getFullYear();
-
+const whatsappGo = () => {
+        const numero = "556697220111";
+        const mensagem = "Olá, quero saber mais sobre a Leziert!";
+        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+        window.open(url, "_blank");
+    }
   return (
     <footer className="bg-gradient-to-r from-slate-950 via-slate-950 to-slate-950 text-white  border-t-3 border-blue-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -12,7 +17,7 @@ export const FooterLeziert: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold text-blue-100 mb-4">Leziert</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Inovação e excelência em soluções digitais desde 2026.
+              Inovação e excelência em soluções digitais.
             </p>
           </div>
 
@@ -22,18 +27,14 @@ export const FooterLeziert: React.FC = () => {
               Navegação
             </h4>
             <ul className="space-y-2 text-gray-300 text-sm">
+             
               <li>
-                <a href="#" className="hover:text-blue-100 transition">
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-100 transition">
+                <a href="#" className="hover:text-blue-100 transition" onClick={whatsappGo}>
                   Serviços
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-100 transition">
+                <a href="#" className="hover:text-blue-100 transition" onClick={whatsappGo}>
                   Contato
                 </a>
               </li>
@@ -46,8 +47,8 @@ export const FooterLeziert: React.FC = () => {
               Contato
             </h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>Email: contact@leziert.com</li>
-              <li>Phone: +55 (11) 9999-9999</li>
+              <li>Email: leziertautomacoes@gmail.com</li>
+              <li>Phone: +55 (66) 9722-0111</li>
             </ul>
           </div>
         </div>
