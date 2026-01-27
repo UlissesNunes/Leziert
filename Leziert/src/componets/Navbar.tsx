@@ -65,10 +65,10 @@ const Navbar = () => {
 
         {/* CTA Button - Estilo Tech */}
         <div className="hidden md:block">
-          <button className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-blue-300 rounded-full hover:bg-white group" onClick={whatsappGo}>
+          <button className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-blue-200 rounded-full hover:bg-white group" onClick={whatsappGo}>
             <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-full bg-gradient-to-br from-blue-950 to-cyan-100 opacity-0 group-hover:opacity-100 transition-opacity"></span>
             <span className="relative text-blue-950 group-hover:text-white flex items-center gap-2 text-sm font-bold">
-             <MessageCircleIcon className='text-green-700'/> Experimentar <ChevronRight size={16} />
+             <MessageCircleIcon className='text-blue-900'/> Experimentar <ChevronRight size={16} />
             </span>
           </button>
         </div>
