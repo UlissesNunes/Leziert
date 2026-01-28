@@ -23,7 +23,7 @@ export const MainLeziert: React.FC = () => {
                         Garanta seu Acesso agora
                     </button>
                 </section>
-                <section className="flex justify-center mb-16">
+                <section className="flex justify-center mb-16 lg:max-w-xl mx-auto">
                      <img src="/public/solucoesdigitais.webp" alt="" />
                 </section>
                 <ContentLeziert />

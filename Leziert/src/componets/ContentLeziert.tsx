@@ -15,7 +15,7 @@ export const ContentLeziert: React.FC = () => {
                         <p className="text-slate-400">Alavancaremos todo o processo de atendimento direto ao cliente com nossa IA integrada + marketing digital + site com nosso método empresarial para atrair e converter clientes.</p>
                     </div>
                     <div className="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition">
-                        <h3 className="text-xl font-bold text-white mb-2">Como vamos aumentar seu lucro com a Leziert?</h3>
+                        <h3 className="text-xl font-bold text-white mb-2">Como vamos aumentar seu lucro?</h3>
                         <p className="text-slate-400">Nós garantimos todo acompanhamento e treinamento para nossas ferramentas trazerem resultados no seu dia a dia. </p>
                         <p className="text-slate-400">Estamos comprometidos com sua instituição.</p>
                     </div>
