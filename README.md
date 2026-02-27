@@ -1,8 +1,8 @@
-# <p align="center">🌐 Leziert Automações: Inteligência Artificial e Tecnologia</p>
-
 <p align="center">
-  <img src="/Leziert/public/leziert.webp" alt="Leziert Logo" width="200">
+  <img src="/Leziert/public/leziert.webp" alt="Leziert Logo" width="300">
 </p>
+
+# <p align="center">Leziert Automações: Inteligência Artificial e Tecnologia</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -31,7 +31,7 @@ O portal utiliza estratégias de **Copywriting** persuasivo e **SEO avançado** 
 
 Este projeto foi construído utilizando as ferramentas mais modernas do ecossistema Frontend para garantir velocidade e escalabilidade:
 
-* **⚛️ React 18:** Arquitetura baseada em componentes para uma interface reativa e modular.
+* **⚛️ React:** Arquitetura baseada em componentes para uma interface reativa e modular.
 * **⚡ Vite:** Ferramenta de build de próxima geração que garante tempos de carregamento instantâneos durante o desenvolvimento e produção.
 * **🎨 Tailwind CSS:** Estilização utilitária para um design responsivo, moderno e extremamente leve.
 * **🤖 IA Integration Ready:** Interface preparada para integração com fluxos de dados de Inteligência Artificial.
