@@ -1,7 +1,7 @@
 # <p align="center">🌐 Leziert Automações: Inteligência Artificial e Tecnologia</p>
 
 <p align="center">
-  <img src="./leziert.webp" alt="Leziert Logo" width="200">
+  <img src="public/leziert.webp" alt="Leziert Logo" width="200">
 </p>
 
 <p align="center">
