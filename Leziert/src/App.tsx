@@ -1,9 +1,9 @@
 
 import './App.css'
-import Navbar from './componets/Navbar'
-import { MainLeziert } from './componets/MainLeziert';
-import { FooterLeziert } from './componets/FooterLeziert';
-import {FormLeziert} from './componets/FormLeziert';
+import Navbar from './components/Navbar'
+import { MainLeziert } from './components/MainLeziert';
+import { FooterLeziert } from './components/FooterLeziert';
+import {FormLeziert} from './components/FormLeziert';
 
 export default function App() {
   return ( 
